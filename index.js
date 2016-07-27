@@ -12,7 +12,7 @@ Vue.use(VueAsyncData);
 Vue.http.headers.common['apikey'] = '5528ee953b1cf4dac7819af62acb701d';
 
 const router = new VueRouter({
-  history: true,
+  history: false,
   saveScrollPosition: true
 })
 
